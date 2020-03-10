@@ -9,5 +9,5 @@ resource "aws_autoscaling_group" "bar" {
   force_delete              = true
   launch_configuration      = "${aws_launch_configuration.default.name}"
   vpc_zone_identifier       = ["subnet-bbd8c195"]
-  target_group_arns         = ["${aws_lb_target_group.default.arn}"]
+  #target_group_arns         = ["${aws_lb_target_group.default.arn}"]
 }
