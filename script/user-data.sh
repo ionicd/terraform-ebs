@@ -1,6 +1,6 @@
-vol=vol-0e2e52c0261bc58fa
-mount_dir=/saurav
-device=/dev/xvdf/
+vol="vol-0e2e52c0261bc58fa"
+mount_dir="/saurav"
+device="/dev/xvdf/"
 
 if [ ! -d $mount_dir ]
 then
