@@ -4,7 +4,7 @@ pip install awscli
 
 vol="vol-0e2e52c0261bc58fa"
 mount_dir="/saurav"
-device="/dev/xvdf/"
+device="/dev/xvdf"
 region="us-east-1"
 
 if [ ! -d $mount_dir ]
