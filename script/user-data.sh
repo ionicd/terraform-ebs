@@ -1,3 +1,7 @@
+#!/bin/bash
+
+pip install aws
+
 vol="vol-0e2e52c0261bc58fa"
 mount_dir="/saurav"
 device="/dev/xvdf/"
